@@ -1,0 +1,146 @@
+@media screen and (min-width: 601px) {
+  .myportfolio .hidden_div .art_nav-photos {
+    display: block;
+    background-color: white;
+    padding: 10px 15px;
+    margin-left: -10px;
+    cursor: pointer;
+  }
+  .myportfolio .hidden_div .art_nav-photos i {
+    display: inline-block;
+  }
+  .myportfolio .hidden_div .art_nav-photos p {
+    display: inline-block;
+  }
+  .myportfolio .hidden_div .art {
+    margin-left: 5px;
+  }
+  main .container_of_photos div {
+    width: 30%;
+    margin: 15px 0 5px 15px;
+  }
+  main .container_of_photos div img {
+    width: 100%;
+  }
+  main .container_of_photos div div {
+    width: 90%;
+  }
+  main .container_of_photos .wrapper {
+    margin-right: 15px;
+  }
+  main .girls_photo {
+    justify-content: center;
+  }
+  main .girls_photo img {
+    width: 47%;
+    margin: 0 5px;
+  }
+  main .three_buttons {
+    justify-content: center;
+    width: 100%;
+  }
+  main .three_buttons .button_wrapper {
+    width: 30%;
+    margin: 10px 5px;
+  }
+  main .contact_container .contact_wrapper div {
+    width: 33%;
+  }
+  main footer .footer_wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+  }
+  main footer .footer_wrapper div:first-child p:nth-child(2) {
+    width: 85%;
+  }
+  main footer .footer_wrapper div:nth-child(2) {
+    margin-right: 25px;
+  }
+}
+@media screen and (min-width: 993px) {
+  header nav {
+    display: none;
+  }
+  body main::before {
+    content: "";
+    display: block;
+    margin-left: 20vw;
+  }
+  body main aside {
+    display: block;
+  }
+  main {
+    display: flex;
+  }
+  main .container_of_photos div {
+    width: 31%;
+    margin: 5px 0 10px 5px;
+  }
+  main .container_of_photos .wrapper {
+    margin-right: 15px;
+  }
+  main aside {
+    position: fixed;
+    background-color: white;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 20vw;
+  }
+  main aside .aside_photo {
+    margin-left: 15px;
+    margin-top: 25px;
+  }
+  main aside .aside_photo img {
+    width: 110px;
+    border-radius: 5px;
+  }
+  main aside .aside_photo p:nth-child(2) {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px 0;
+  }
+  main aside .aside_photo p:nth-child(3) {
+    font-size: 15px;
+    color: rgb(83, 83, 83);
+  }
+  main aside .aside_hover {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+  }
+  main aside .aside_hover .f-portfolio {
+    color: rgb(6, 196, 196);
+  }
+  main aside .aside_hover a {
+    font-size: 13px;
+    padding: 15px 0;
+    padding-left: 15px;
+    text-decoration: none;
+    color: black;
+  }
+  main aside .aside_hover a i {
+    padding-right: 15px;
+  }
+  main aside .aside_hover a .fa {
+    padding-right: 30px;
+    color: rgb(6, 196, 196);
+  }
+  main aside .aside_hover a:hover {
+    background-color: gray;
+  }
+  main aside .social_icons {
+    margin-left: 13px;
+  }
+  main aside .social_icons i:hover {
+    opacity: 0.6;
+  }
+  main .charge {
+    margin-left: 20px;
+  }
+  main .three_buttons .button_wrapper {
+    width: 31%;
+    margin: 10px 8px;
+  }
+}/*# sourceMappingURL=responsive.css.map */

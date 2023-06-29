@@ -1,0 +1,179 @@
+@media screen and (min-width: 601px) {
+  .myportfolio {
+    .hidden_div {
+      .art_nav-photos {
+        display: block;
+        background-color: white;
+        padding: 10px 15px;
+        margin-left: -10px;
+        cursor: pointer;
+        i {
+          display: inline-block;
+        }
+        p {
+          display: inline-block;
+        }
+      }
+      .art {
+        margin-left: 5px;
+      }
+    }
+  }
+  main {
+    // ---------------------------container_of_photos---------------------------
+    .container_of_photos {
+      div {
+        width: 30%;
+        margin: 15px 0 5px 15px;
+        img {
+          width: 100%;
+        }
+        div {
+          width: 90%;
+        }
+      }
+      .wrapper {
+        margin-right: 15px;
+      }
+    }
+    // ---------------------girls-photo---------------------
+    .girls_photo {
+      justify-content: center;
+      img {
+        width: 47%;
+        margin: 0 5px;
+      }
+    }
+    // --------------------three_buttons-----------------------
+    .three_buttons {
+      justify-content: center;
+      width: 100%;
+      .button_wrapper {
+        width: 30%;
+        margin: 10px 5px;
+      }
+    }
+    // -----------------------contact------------------------
+    .contact_container {
+      .contact_wrapper {
+        div {
+          width: 33%;
+        }
+      }
+    }
+    // ------------------------footer-----------------------------
+    footer {
+      .footer_wrapper {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        div:first-child {
+          p:nth-child(2) {
+            width: 85%;
+          }
+        }
+        div:nth-child(2) {
+          margin-right: 25px;
+        }
+      }
+    }
+  }
+}
+// ------------------------------------------------------------------
+@media screen and (min-width: 993px) {
+  header {
+    nav {
+      display: none;
+    }
+  }
+  body {
+    main::before {
+      content: "";
+      display: block;
+      margin-left: 20vw;
+    }
+    main {
+      aside {
+        display: block;
+      }
+    }
+  }
+  main {
+    .container_of_photos {
+      div {
+        width: 31%;
+        margin: 5px 0 10px 5px;
+      }
+      .wrapper {
+        margin-right: 15px;
+      }
+    }
+    display: flex;
+    aside {
+      position: fixed;
+      background-color: white;
+      top: 0;
+      left: 0;
+      height: 100vh;
+      width: 20vw;
+      .aside_photo {
+        margin-left: 15px;
+        margin-top: 25px;
+        img {
+          width: 110px;
+          border-radius: 5px;
+        }
+        p:nth-child(2) {
+          font-size: 20px;
+          font-weight: bold;
+          margin: 20px 0;
+        }
+        p:nth-child(3) {
+          font-size: 15px;
+          color: rgb(83, 83, 83);
+        }
+      }
+      .aside_hover {
+        margin: 20px 0;
+        display: flex;
+        flex-direction: column;
+        .f-portfolio {
+          color: rgb(6, 196, 196);
+        }
+        a {
+          font-size: 13px;
+          padding: 15px 0;
+          padding-left: 15px;
+          text-decoration: none;
+          color: black;
+          i {
+            padding-right: 15px;
+          }
+          .fa {
+            padding-right: 30px;
+            color: rgb(6, 196, 196);
+          }
+        }
+        a:hover {
+          background-color: gray;
+        }
+      }
+      .social_icons {
+        margin-left: 13px;
+        i:hover {
+          opacity: 0.6;
+        }
+      }
+    }
+    .charge {
+      margin-left: 20px;
+    }
+    // --------------------three_buttons-----------------------
+    .three_buttons {
+      .button_wrapper {
+        width: 31%;
+        margin: 10px 8px;
+      }
+    }
+  }
+}

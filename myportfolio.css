@@ -1,0 +1,395 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: rgb(231, 229, 229);
+}
+body main::before {
+  display: none;
+}
+body main aside {
+  display: none;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px;
+}
+header nav i {
+  font-size: 30px;
+  margin-top: 5px;
+}
+header nav img {
+  width: 70px;
+  border-radius: 50px;
+}
+
+main .myportfolio div:nth-child(1) a {
+  margin: 25px 0;
+  text-decoration: none;
+  color: black;
+  font-size: 35px;
+}
+main .myportfolio div {
+  display: flex;
+  padding-left: 15px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+main .myportfolio div div:first-child p:first-child {
+  margin-left: -15px;
+}
+main .myportfolio div div:first-child p:nth-child(2) {
+  background-color: black;
+  color: white;
+  padding: 10px 15px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+main .myportfolio div div:first-child p:nth-child(2):hover {
+  background-color: gray;
+}
+main .myportfolio div .art_nav-photos {
+  display: none;
+}
+main .myportfolio div .art_nav-photos i {
+  display: none;
+}
+main .myportfolio div .art_nav-photos p {
+  display: none;
+}
+main .myportfolio div .nav-button {
+  background-color: white;
+  padding: 10px 15px;
+  margin-left: 5px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+main .myportfolio div .nav-button i {
+  background-color: white;
+}
+main .myportfolio div .nav-button p {
+  background-color: white;
+  padding-left: 17px;
+}
+main .myportfolio .line {
+  border-bottom: 5px solid gray;
+  margin: 15px;
+}
+main .container_of_photos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+main .container_of_photos div {
+  margin: 15px;
+  background-color: white;
+}
+main .container_of_photos div img {
+  width: 100%;
+}
+main .container_of_photos div div p:first-child {
+  font-size: 17px;
+  font-weight: bold;
+}
+main .container_of_photos div div p:nth-child(2) {
+  padding: 18px 0;
+}
+main .pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .pagination i {
+  font-size: 10px;
+  padding: 25px;
+}
+main .pagination a {
+  color: black;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+main .pagination a:hover {
+  background-color: black;
+  color: white;
+}
+main .pagination a:nth-child(2) {
+  background-color: black;
+  color: white;
+}
+main .pagination a:nth-child(2):hover {
+  background-color: gray;
+  color: black;
+}
+main .girls_photo {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 40px 0;
+}
+main .girls_photo img {
+  display: block;
+  width: 100%;
+  margin: 0 20px;
+}
+main .about_me {
+  margin: 15px;
+}
+main .about_me a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0 5px;
+}
+main .about_me p {
+  margin: 20px 5px;
+}
+main .technical_skills {
+  margin: 40px 20px;
+}
+main .technical_skills p:first-child {
+  font-size: 20px;
+}
+main .technical_skills .names {
+  padding: 15px 0;
+}
+main .technical_skills .percents {
+  width: 100%;
+  background-color: rgb(134, 131, 131);
+}
+main .technical_skills .percents p {
+  font-size: 15px;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.897);
+  padding: 10px 0;
+  text-align: center;
+  background-color: rgb(62, 63, 63);
+}
+main .technical_skills .percents .p_95 {
+  width: 95%;
+}
+main .technical_skills .percents .p_85 {
+  width: 85%;
+}
+main .technical_skills .percents .p_80 {
+  width: 80%;
+}
+main .download_resume button {
+  background-color: rgb(62, 63, 63);
+  border: none;
+  font-size: 18px;
+  padding: 15px 20px;
+  margin: 0 20px;
+  color: white;
+}
+main .download_resume button i {
+  padding-right: 10px;
+}
+main .download_resume button:hover {
+  background-color: rgb(134, 131, 131);
+  color: black;
+}
+main .charge {
+  margin: 20px;
+  margin-top: 50px;
+}
+main .charge p {
+  font-size: 20px;
+}
+main .three_buttons {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+main .three_buttons .button_wrapper {
+  width: 600px;
+  margin: 10px 20px;
+  background-color: rgba(255, 255, 255, 0.836);
+  text-align: center;
+}
+main .three_buttons .button_wrapper div:first-child {
+  background-color: rgb(62, 63, 63);
+}
+main .three_buttons .button_wrapper div:first-child h2 {
+  border: 1px solid rgb(146, 146, 146);
+  border-bottom: none;
+  color: rgba(255, 255, 255, 0.849);
+  padding: 25px 0;
+}
+main .three_buttons .button_wrapper div:first-child .pro {
+  background-color: rgba(0, 255, 255, 0.76);
+  border-bottom: none;
+  border: 1px solid rgb(146, 146, 146);
+}
+main .three_buttons .button_wrapper p {
+  color: rgba(62, 63, 63, 0.651);
+  padding: 25px 0;
+  border: 1px solid rgb(146, 146, 146);
+  border-bottom: none;
+}
+main .three_buttons .button_wrapper .permonth {
+  display: flex;
+  justify-content: center;
+  border: 1px solid rgb(146, 146, 146);
+  border-bottom: none;
+}
+main .three_buttons .button_wrapper .permonth p {
+  border: none;
+  padding: 15px;
+  width: 105px;
+  line-height: 40px;
+}
+main .three_buttons .button_wrapper .permonth p b {
+  font-size: 35px;
+}
+main .three_buttons .button_wrapper .permonth p span {
+  font-size: 27px;
+}
+main .three_buttons .button_wrapper .sign_up {
+  background-color: rgba(134, 131, 131, 0.253);
+  padding: 20px 0;
+  border: 1px solid rgb(146, 146, 146);
+}
+main .three_buttons .button_wrapper .sign_up button {
+  border: none;
+  font-size: 18px;
+  padding: 10px 15px;
+  background-color: rgba(0, 255, 255, 0.425);
+  color: rgba(255, 255, 255, 0.89);
+}
+main .contact_container {
+  margin-top: 50px;
+  background-color: rgba(0, 0, 0, 0.322);
+}
+main .contact_container h2 {
+  padding: 20px;
+}
+main .contact_container .contact_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 20px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.637);
+}
+main .contact_container .contact_wrapper div {
+  width: 100%;
+  color: white;
+  padding: 25px 0;
+}
+main .contact_container .contact_wrapper div i {
+  font-size: 35px;
+  padding-bottom: 20px;
+}
+main .contact_container .contact_wrapper div:nth-child(2) {
+  background-color: rgba(0, 255, 255, 0.555);
+}
+main hr {
+  margin: 50px 20px;
+}
+main form {
+  margin: 5px 20px 0 20px;
+}
+main form label {
+  font-size: 15px;
+  font-weight: 100;
+}
+main form input {
+  width: 100%;
+  padding: 10px 5px;
+  font-size: 15px;
+}
+main form button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 17px;
+  margin-bottom: 25px;
+}
+main form button i {
+  padding-right: 10px;
+}
+main form button:hover {
+  background-color: gray;
+  color: black;
+}
+main footer {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.616);
+  color: rgba(255, 255, 255, 0.842);
+}
+main footer .footer_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+main footer .footer_wrapper div:first-child h2 {
+  padding: 20px 0;
+}
+main footer .footer_wrapper div:first-child .powered {
+  padding: 15px 0;
+}
+main footer .footer_wrapper div:first-child .powered a {
+  color: rgba(255, 255, 255, 0.842);
+}
+main footer .footer_wrapper div:nth-child(2) {
+  width: 100%;
+  margin: 10px 0;
+}
+main footer .footer_wrapper div:nth-child(2) .lorem_container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+main footer .footer_wrapper div:nth-child(2) .lorem_container div:first-child {
+  margin-left: 10px;
+}
+main footer .footer_wrapper div:nth-child(2) .lorem_container div:first-child img {
+  width: 50px;
+}
+main footer .footer_wrapper div:nth-child(2) .lorem_container div:last-child {
+  font-size: 18px;
+  padding-left: 20px;
+  padding-right: 4px;
+  width: 100%;
+}
+main footer .footer_wrapper div:nth-child(2) .lorem_container:hover {
+  background-color: gray;
+}
+main footer .footer_wrapper div:nth-child(2) .bottom_line {
+  width: 100%;
+  border-bottom: 1px solid rgb(226, 226, 226);
+  margin: auto;
+}
+main footer .footer_wrapper .popular_container div:nth-child(2) {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+main footer .footer_wrapper .popular_container div:nth-child(2) p {
+  background-color: gray;
+  padding: 5px;
+  margin: 5px 0;
+  color: rgb(32, 32, 32);
+}
+main footer .footer_wrapper .popular_container div:nth-child(2) p:first-child {
+  background-color: black;
+  color: rgba(255, 255, 255, 0.863);
+}
+main footer .last_div {
+  height: 100px;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=myportfolio.css.map */
